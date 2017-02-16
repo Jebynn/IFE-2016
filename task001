@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+    <H1>
+        My first HTML PAGE
+    </h1>
+    <ul>
+        <li><a href="http://www.baidu.com">导航链接1</a></li>
+        <li><a href="http://www.baidu.com">导航链接2</a></li>
+	      <li><a href="http://www.baidu.com">导航链接2</a></li>
+	      <li><a href="http://www.baidu.com">导航链接2</a></li>
+	</ul>
+	<h2>
+	    first paraghaph
+	</h2>
+	<h2>
+	    sencond paraghaph
+	</h2>
+	<p>writer public-time</p>
+	<p>文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容</p>
+	<img src="1.jpg">
+	<p>文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章
+	<a href="http://www.baidu.com">这里有个链接</a>文章内容文章文章内容文章文章内容文章</p>
+    <h3>
+    another paper
+    </h3>
+    <p>writer public-time</p>
+    <p>文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容</p>
+     <ul>
+        <li>列表项目1</li>
+        <li>列表项目2</li>
+	    <li>列表项目3</li>
+	</ul>
+	<h2>图片</h2> 
+	    好看的图片</br>
+	    <img src="1.jpg"></br></br>
+	    好看的图片</br>
+	    <img src="1.jpg"></br></br>
+	    好看的图片</br>
+	    <img src="1.jpg"></br></br>
+	    好看的图片</br>
+	    <img src="1.jpg"></br></br>
+	<h1>
+	    last paper
+	</h1>
+	<h2>
+	    sencond paraghaph
+	</h2>
+	<p>writer public-time</p>
+	<ol>
+        <li>列表项目1</li>
+        <li>列表项目2</li>
+	    <li>列表项目3</li>
+	</ol>
+    下面是一个表格，给表格加了一个border="1"好让你看出是一个表格</br>
+    <table border="1">
+        <tr>
+            <td>表头</td>
+            <td>表头</td>
+            <td>表头</td>
+        <tr>
+            <td>标内容单元格</td>
+            <td>标内容单元格</td>
+            <td>操作</td>
+        <tr>
+            <td>标内容单元格</td>
+            <td>标内容单元格</td>
+            <td>操作</td>
+        <tr>
+            <td>标内容单元格</td>
+            <td>标内容单元格</td>
+            <td>操作</td>
+        <tr>
+            <td>标内容单元格</td>
+            <td>标内容单元格</td>
+            <td>操作</td>
+        <tr>
+            <td>总计</td>
+            <td colspan="2">1000</td>
+    </table>
+    <h2>
+	    last side bar
+	</h2>      
+    <h2>side bar sinanature</h2>
+    <form>
+        请输入邮箱地址:
+        <input type="text" value="这是一个文本输入框">
+        </br></br>
+        邮箱地址请按要求格式输入</br></br>
+        请输入密码：
+        <input type="text" value="这是一个文本输入框">
+        请重复输入密码：
+        <input type="text" value="这是一个文本输入框"></br></br>
+        密码请为6-16位英文数字
+        </br>
+        </br>
+        性别：
+        <input type="radio" checked="checked">男
+        <input type="radio">女
+        城市：
+        <select>
+            <option>北京</option>
+        </select>
+        爱好：
+        <input type="checkbox">运动
+        <input type="checkbox">艺术
+        <input type="checkbox">科学
+        个人描述：
+        <textarea rows=2>这是一个多行输入框
+        </textarea>
+        <input type="submit" name="确认提交"></br>
+    </form>
+    </br>
+    </br>
+    <address>
+    版权所有
+    </address>
+</body>
+</html>
