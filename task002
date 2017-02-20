@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	    body {
+	    	margin:0;
+	    	padding:0;
+	    }
+	    .one {
+	    	height:100px;
+	        background-color: dimgrey;
+
+
+	    }
+	    .two {
+	    	background-color:lightgrey;
+	    	position:relative;
+	    	padding:20px;
+           
+	    }
+	    .three {
+	    	background-color: white;
+	    	margin: 20px;
+	    	padding: 20px 30px 20px 30px;
+	    	box-shadow: silver 10px 10px 5px;
+	    }
+	    .four {
+	    	background-color:black;
+	    	height:100px;
+	    }
+	    table {
+	        border-collapse:collapse;
+	        width:100%;
+	    }
+	    th,td {
+	    	font-size:1em;
+	    	border:2px solid lightgrey;
+	    	padding:3px 7px 2px 7px;
+	    }
+	    th {
+	    	font-size:1.2em;
+	    	text-align:left;
+	    	padding-top:5px;
+	    	padding-bottom:4px;
+	    	padding-left:10px;
+	    	background-color:dimgrey;
+	    	color:white;
+	    }
+	    .alt {
+	    	background-color:lightgrey;
+	    }
+	    label {
+	    	display:block;
+	    	margin:0px;
+	    } 
+	    span {
+	    	 float: left;
+	    	 width:30%;
+             text-align: right;
+	    }
+	    input,select,textarea {
+	    	border: 1px solid #DADADA;
+            color: #888;
+            margin-left: 6px;
+            padding: 3px 3px 3px 5px;
+            font-size: 12px;
+            line-height:15px;
+            box-shadow: inset 0px 1px 4px #ECECEC;
+	    }
+	    textarea {
+	    	height:100px;
+	    	width:600px;
+	    }
+	    .button {
+	    	background:blue;
+            border: none;
+            color: white;
+            width:100%;
+            padding: 10px 0px 10px 0px;
+            box-shadow: 1px 1px 5px #B6B6B6;
+            border-radius: 10px;
+            text-shadow: 1px 1px 1px #9E3F3F;
+	    }
+	</style>
+</head>
+<body>
+    <div class="one">
+        <img style="margin-left:40px" src="baidu.jpg" height="80" width="auto">
+        <ul style="float:right; color:white; margin-right:30px; margin-top:40px">
+            <li style="float:left;margin-left:20px">
+                导航链接一
+            </li>
+            <li style="float:left;margin-left:20px">
+                导航链接二 
+            </li>
+            <li style="float:left;margin-left:20px">
+                导航链接三
+            </li>
+            <li style="float:left;margin-left:20px">
+                导航链接四
+            </li>
+        </ul>
+    </div>
+    <div class="two">
+        <div class="three">
+            <h1>我的文章一级标题</h1>
+            <h2>我的文章二级标题</h2>
+            <h4>文章作者 文章发表时间</h4>
+            <p text-indent="20px">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落</P>
+            <img src="1.jpg" width="100px" height="100px"></br>
+            <p text-indent="20px">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落
+            <a href="http://www.baidu.com">这里有一个连接点击后打开新窗口</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落</p>
+        </div>
+        <div class="three">
+            <h1>另一个文章一级标题</h1>
+            <h2>另一个文章二级标题</h2>
+            <h4>文章作者 文章发表时间</h4>
+            <p text-indent="20px">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落</p>
+            <img src="1.jpg" width="100px" height="100px"></br>
+            <ul style="list-style:none">
+                <li>列表项目1</li>
+                <li>列表项目2</li>
+                <li>列表项目3</li>
+            </ul>
+        </div>
+        <div class="three">
+            <h2>图片</h2>
+            <ul style="list-style:none">
+                <li style="display:block; width:200px; height:200px;border:solid 2px lightgrey; text-align:center">
+                        好看的图片</br>
+                        <img src="1.jpg" width="80%" height="80%">
+                </li></br>
+                <li style="display:block; width:200px; height:200px;border:solid 2px lightgrey; text-align:center">
+                    好看的图片</br>
+                    <img src="1.jpg" width="80%" height="80%">
+                </li></br>
+                <li style="display:block; width:200px; height:200px;border:solid 2px lightgrey; text-align:center">
+                    好看的图片</br>
+                    <img src="1.jpg" width="80%" height="80%">
+                </li></br>
+                <li style="display:block; width:200px; height:200px;border:solid 2px lightgrey; text-align:center">
+                    好看的图片</br>
+                    <img src="1.jpg" width="80%" height="80%">
+                </li></br>
+                <li style="display:block; width:200px; height:200px;border:solid 2px lightgrey; text-align:center">
+                    好看的图片</br>
+                    <img src="1.jpg" width="80%" height="80%">
+                </li></br>
+        </div>
+        <div class="three">
+            <h1>最后的文章标题</h1>
+            <h2>文章二级标题</h2>
+            <h5>文章作者 文章发表时间</h5>
+            <ol>
+                <li>排名1</li>
+                <li>排名2</li>
+                <li>排名3</li>
+            </ol>
+            </br>
+            <p>下面是一个表格，我在这里给表格加了一个border="1"好让你看出是一个表格，你们不用写html时候不需要加</p>
+            <table>
+                <tr>
+                    <th>表头</th>
+                    <th>表头</th>
+                    <th>表头</th>
+                </tr>
+                <tr>
+                    <td>标内容单元格</td>
+                    <td>标内容单元格</td>
+                    <td><a href="http://www.baidu.com">操作</td>
+                </tr>
+                <tr>
+                    <td>标内容单元格</td>
+                    <td>标内容单元格</td>
+                    <td><a href="http://www.baidu.com">操作</td>
+                </tr>
+                <tr>
+                    <td>标内容单元格</td>
+                    <td>标内容单元格</td>
+                    <td><a href="http://www.baidu.com">操作</td>
+                </tr>
+                <tr>
+                    <td>标内容单元格</td>
+                    <td>标内容单元格</td>
+                    <td><a href="http://www.baidu.com">操作</td>
+                </tr>
+                   <td class="alt">总计</td>
+                   <td class="alt" colspan="2">1000</td>
+            </table>
+        </div>
+        <div class="three">
+            <p>这里以后是一个侧栏，这是侧栏的标题</p>
+            <form>
+                <label>
+                    <span>请输入邮箱地址</span>
+                    <input type="text" value="这是一个文本输入框">
+                </label>
+                </br>
+                <label>
+                    <span>请输入密码</span>
+                    <input type="password" value="******">
+                </label>
+                </br>
+                <label>
+                    <span>请重复输入密码</span>
+                    <input type="passowrd" value="******">
+                </label>
+                </br>
+                <label>
+                    <span>性别</span>
+                    <input type="radio" checked="checked">男
+                <input type="radio">女
+                </label>
+                </br>
+                <label>
+                    <span>城市</span>
+                    <select>
+                        <option>北京</option>
+                    </select>
+                </label>
+                </br>
+                <label>
+                    <span>爱好</span>
+                    <input type="checkbox">运动
+                    <input type="checkbox">艺术
+                    <input type="checkbox">科学
+                </lable>
+                </br>
+                </br>
+                <label>
+                    <span>个人描述</span>
+                    <textarea row=3>这是一个多行输入框，输入您的个人描述
+                    </textarea>
+                </label>
+                </br>
+                <label>
+                    <input type="button" class="button" value="确认提交">
+                </label>
+            </form>
+        </div>
+    </div>
+    <div class="four">
+    </div>
+    
+
+</body>
+</html>
