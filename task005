@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		.header {
+			height: 80px;
+			background-color: dimgrey;
+		}
+		.container {
+			padding: 20px;
+			background-color: #eee;
+			overflow:hidden;
+
+		}
+		.right {
+			background-color: white;
+			border: 0.5px solid #999;
+			width: 300px;
+			padding: 20px;
+			float: right;
+			box-shadow: silver 10px 10px 5px;
+		}
+		.inner {
+			background-color: white;
+			padding: 20px;
+			margin-bottom: 20px;
+			margin-right: 360px;
+			border: 1px solid #999;
+			box-shadow: silver 10px 10px 5px;
+			overflow:hidden;
+		}
+		.footer {
+			background-color: dimgrey;
+			height: 80px;
+		}
+		label {
+	    	display:block;
+	    	margin:0px;
+	    } 
+	    span {
+	    	 float: left;
+	    	 width:40%;
+	    	 margin-right:10px;
+             text-align: right;
+	    }
+	    input,select,textarea {
+	    	border: 1px solid #DADADA;
+            color: #888;
+            margin-left: 0px;
+            padding: 3px 3px 3px 5px;
+            font-size: 12px;
+            line-height:15px;
+            box-shadow: inset 0px 1px 4px #ECECEC;
+	    }
+	    textarea {
+	    	height:80px;
+	    	width:150px;
+	    }
+	    .button {
+	    	background-color:#1E90FF;
+            border: none;
+            color: white;
+            width:100%;
+            padding: 10px 0px 10px 0px;
+            box-shadow: 1px 1px 5px #B6B6B6;
+            border-radius: 10px;
+            text-shadow: 1px 1px 1px #9E3F3F;
+	    }
+	    table.one {
+	        border-collapse:collapse;
+	        width:100%;
+	    }
+	    th,td.one {
+	    	font-size:1em;
+	    	border:2px solid lightgrey;
+	    	padding:3px 7px 2px 7px;
+	    }
+	    th.one {
+	    	font-size:1.2em;
+	    	text-align:left;
+	    	padding-top:5px;
+	    	padding-bottom:4px;
+	    	padding-left:10px;
+	    	background-color:dimgrey;
+	    	color:white;
+	    }
+		table.two {
+	        width:80%;
+	        text-align: center;
+	    	border-spacing: 20px;
+	    }
+	    td.two {
+	    	height: 80px;
+	    	width: 80px;
+	    	padding: 50px;
+	    }
+	</style>
+</head>
+<body>
+	<div class="header">
+	</div>
+	<div class="container">
+		<div class="right">
+			<p>这里以后是一个侧栏，这是侧栏的标题</p>
+            <form>
+                <label>
+                    <span>请输入邮箱地址</span>
+                    <input type="text" value="这是一个文本输入框">
+                </label>
+                </br>
+                <label>
+                    <span>请输入密码</span>
+                    <input type="password" value="******">
+                </label>
+                </br>
+                <label>
+                    <span>请重复输入密码</span>
+                    <input type="passowrd" value="******">
+                </label>
+                </br>
+                <label>
+                    <span>性别</span>
+                    <input type="radio" checked="checked">男
+                <input type="radio">女
+                </label>
+                </br>
+                <label>
+                    <span>城市</span>
+                    <select>
+                        <option>北京</option>
+                    </select>
+                </label>
+                </br>
+                <label>
+                    <span>爱好</span>
+                    <input type="checkbox">运动
+                    <input type="checkbox">艺术
+                    <input type="checkbox">科学
+                </lable>
+                </br>
+                </br>
+                <label>
+                    <span>个人描述</span>
+                    <textarea row=3>这是一个多行输入框，输入您的个人描述
+                    </textarea>
+                </label>
+                </br>
+                <label>
+                	<input type="button" class="button" value="确认提交">
+            	</label>
+            </form>    
+		</div>
+		<div class="inner">
+			<h1>我的文章一级标题</h1>
+            <h2>我的文章二级标题</h2>
+            <h4>文章作者 文章发表时间</h4>
+            <p text-indent="20px">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落</P>
+            <img src="logo.jpg" width="100px" height="100px"></br>
+            <p text-indent="20px">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落
+            <a href="http://www.baidu.com">这里有一个连接点击后打开新窗口</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落</p>
+		</div>
+		<div class="inner">
+			<h1>另一个文章一级标题</h1>
+            <h2>另一个文章二级标题</h2>
+            <h4>文章作者 文章发表时间</h4>
+            <p text-indent="20px">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落</p>
+            <img src="logo.jpg" width="100px" height="100px"></br>
+            <ul style="list-style:none">
+                <li>列表项目1</li>
+                <li>列表项目2</li>
+                <li>列表项目3</li>
+            </ul>
+        </div>
+        <div class="inner">
+        	<p>图片</p>
+        	<table class="two">
+                <tr>
+                    <td class="one">
+                    	好看的图片
+                    	<img src="logo.jpg" width="80%" height="80%">
+                	</td>
+                	<td class="one">
+                    	好看的图片
+                    	<img src="logo.jpg" width="80%" height="80%">
+                	</td>
+                	<td class="one">
+                    	好看的图片
+                    	<img src="logo.jpg" width="80%" height="80%">
+                	</td>
+                	<td class="one">
+                    	好看的图片
+                    	<img src="logo.jpg" width="80%" height="80%">
+                	</td>
+                	<td class="one">
+                    	好看的图片
+                    	<img src="logo.jpg" width="80%" height="80%">
+                	</td>
+                <tr>
+                    <td class="one">
+                    	好看的图片
+                    	<img src="logo.jpg" width="80%" height="80%">
+                	</td>
+                	<td class="one">
+                    	好看的图片
+                    	<img src="logo.jpg" width="80%" height="80%">
+                	</td>
+                	<td class="one">
+                    	好看的图片
+                    	<img src="logo.jpg" width="80%" height="80%">
+                	</td>
+                	<td class="one">
+                    	好看的图片
+                    	<img src="logo.jpg" width="80%" height="80%">
+                	</td>
+                	<td class="one">
+                    	好看的图片
+                    	<img src="logo.jpg" width="80%" height="80%">
+                	</td>
+            	</tr>
+            </table>
+        </div>
+        <div class="inner">
+        	<table class="one">
+                <tr>
+                    <th class="one">表头</th>
+                    <th class="one">表头</th>
+                    <th class="one">表头</th>
+                </tr>
+                <tr>
+                    <td class="one">标内容单元格</td>
+                    <td class="one">标内容单元格</td>
+                    <td class="one"><a href="http://www.baidu.com">操作</td>
+                </tr>
+                <tr>
+                    <td class="one">标内容单元格</td>
+                    <td class="one">标内容单元格</td>
+                    <td class="one"><a href="http://www.baidu.com">操作</td>
+                </tr>
+                <tr>
+                    <td class="one">标内容单元格</td>
+                    <td class="one">标内容单元格</td>
+                    <td class="one"><a href="http://www.baidu.com">操作</td>
+                </tr>
+                <tr>
+                    <td class="one">标内容单元格</td>
+                    <td class="one">标内容单元格</td>
+                    <td class="one"><a href="http://www.baidu.com">操作</td>
+                </tr>
+                   <td class="one">总计</td>
+                   <td class="one" colspan="2"; text-align="center">1000</td>
+            </table>
+        </div>
+	</div>
+	<div class="footer">
+	</div>
+</body>
+</html>
